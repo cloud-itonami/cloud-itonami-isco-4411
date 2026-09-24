@@ -1,5 +1,5 @@
 (ns libraryclerk.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [libraryclerk.actor :as actor]
             [libraryclerk.store :as store]))
 
