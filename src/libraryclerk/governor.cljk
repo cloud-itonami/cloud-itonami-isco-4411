@@ -5,7 +5,7 @@
   operation an advisor may propose. The advisor has no notion of
   patron verification status or legal-hold provenance, so this MUST
   be a separate system able to reject a proposal (itonami actor
-  pattern, per ADR-2607011000 / CLAUDE.md Actors section). Modeled on
+  pattern, per ADR-2607011000 / AGENTS.md Actors section). Modeled on
   cloud-itonami-isco-4214's debtcollection.governor.
 
   `check` is a pure function of (request, context, proposal, store) ->
